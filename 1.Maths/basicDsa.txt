@@ -1,4 +1,8 @@
 # dsa syll
 
 1. Mathematical calculation
-	data types
+2. data types
+3. operators
+4. if-else
+5. loops
+	
