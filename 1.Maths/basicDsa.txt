@@ -5,4 +5,7 @@
 3. operators
 4. if-else
 5. loops
+6. pattern
+7. methods
+8. Arrays
 	
