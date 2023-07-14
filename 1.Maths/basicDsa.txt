@@ -1,1 +1,4 @@
 # dsa syll
+
+1. Mathematical calculation
+	data types
