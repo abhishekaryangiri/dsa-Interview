@@ -8,12 +8,12 @@ public static void main(String[] args) {
 		//inr Loop
 		for( int j=1; j<=b; j++) {
 			if(i==1 || j==1 || i==a || j==b) {
-				System.out.println("#");
+				System.out.print("*");
 			}else {
-				System.out.println(" ");
+				System.out.print(" ");
 			}
 		}
-		
+		System.out.println();
 	}
 }
 }
