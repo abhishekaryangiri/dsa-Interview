@@ -6,16 +6,20 @@ public class $2Pattern2 {
 		//outerLoop
 		for( int a=1;a<=tR;a++) {
 			//inr col
-			for(int b=1;b<=tC;b++) {
+			for(int b=1; b<=tC; b++) {
 				//
-				if(a==1|| a==tR || b==1 || b==tC) {
-					System.out.print("*");
+				if(a==1|| a==tR || b==1 || b==tC) { 
+					System.out.print(" * ");
 				}else {
-					System.out.println(" ");
-				}
+					System.out.print("    ");
 			}
-			public static void main(String[] args) {
-				//6.3
-				printRec(10, 7);
+			}
+			System.out.println();
+			}
 	}
-}
+			public static void main(String[] args) {
+				printRec(8, 6);
+		}
+		
+	}
+	
