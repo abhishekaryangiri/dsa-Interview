@@ -6,7 +6,9 @@ public static void main(String[] args) {
 	//out loop
 	for( int a=1; a<=x; a++) {
 		//inn loop spc
-		for( int b=1; b<=x-1; b++) {
+		for( int b=1; b<=x-a; b++) {
+			System.out.print(" ");
+		}
 			//inn loop
 			for( int b=1; b<=x; b++) {
 				System.out.print("$");
@@ -15,4 +17,4 @@ public static void main(String[] args) {
 		}
 	}
 }
-}
+
