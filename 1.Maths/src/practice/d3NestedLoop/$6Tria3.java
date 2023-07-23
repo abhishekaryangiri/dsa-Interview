@@ -10,7 +10,7 @@ public static void main(String[] args) {
 			System.out.print(" ");
 		}
 			//inn loop
-			for( int b=1; b<=x; b++) {
+			for( int b=1; b<=a; b++) {
 				System.out.print("$");
 			}
 			System.out.println();
