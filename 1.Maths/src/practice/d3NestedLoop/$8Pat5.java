@@ -6,9 +6,10 @@ public static void main(String[] args) {
 	//out lp
 	for(int a=1;a<=x;a++) {
 		//in ;p
-		for(int b=1;b<=x-1+1;b++) {
-			
+		for(int b=1;b<=x-a+1;b++) {
+			System.out.print(b);
 		}
+		System.out.println();
 	}
 }
 }
