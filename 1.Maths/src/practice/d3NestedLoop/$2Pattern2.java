@@ -8,15 +8,16 @@ public class $2Pattern2 {
 			//inr col
 			for(int b=1; b<=tC; b++) {
 				//
-				if(a==1|| a==tR || b==1 || b==tC) { 
+				if(a==1|| a==tR || b==1 || b==tC) {
 					System.out.print(" * ");
 				}else {
 					System.out.print("    ");
 			}
 			}
+		}
 			System.out.println();
 			}
-	}
+	
 			public static void main(String[] args) {
 				printRec(8, 6);
 		}
