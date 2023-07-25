@@ -1,6 +1,6 @@
-package p1.dada;
+package $1classesandObj;
 
-public class $1DADA {
+public class ClassesnObject {
 public static void main(String[] args) {
 	dada s1 = new dada();
 	s1.allSon("Ram");
