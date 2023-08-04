@@ -10,4 +10,7 @@ public class $2ReturnSt {
 		int z=x*y;
 		System.out.println("Output: "+z);
 	}
+	public static void main(String[] args) {
+		cal();
+	}
 }
