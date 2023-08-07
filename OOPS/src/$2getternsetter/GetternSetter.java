@@ -1,26 +1,6 @@
 package $2getternsetter;
 
-
 public class GetternSetter {
-public static void main(String[] args) {
-	dada s1 = new dada();
-	s1.setSon("Ram");
-	s1.setSon("Shyam");
-	System.out.println("Son: "+s1.getSon());
-	
-	s1.setDtr("Urvarshi");
-	System.out.println("Daughter: "+s1.getDtr());
-	
-	s1.setRelative("Ram Prasad");
-	System.out.println("Relative: "+ s1.getRelative());
-	
-	fruit f1 = new fruit();
-	f1.setFruit1("Mango");
-	f1.setFruit2("Banana");
-	f1.setFruit3("Pineapple");
-	System.out.println("All fav. fruits of DADA: "+ f1.fruit1+" , "+ f1.fruit2+ " , "+f1.fruit3);
-}
-}
 
 class dada{
 	private String son;
@@ -67,4 +47,5 @@ class fruit{
 					void setFruit3( String newFrt3) {
 						this.fruit3 = newFrt3;
 					}
+			}
 }
