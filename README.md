@@ -3,7 +3,6 @@ data structure &amp; algorithm in java for interview/ practice/level basic to ad
 
 1. Mathematical calculation
 2. data types
-
 3. operators
 4. if-else
 5. loops
