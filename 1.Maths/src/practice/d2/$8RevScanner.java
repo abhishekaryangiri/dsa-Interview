@@ -14,5 +14,6 @@ public static void main(String[] args) {
 		x=x/10;
 	}
 System.out.println();
+scan.close();
 }
 }

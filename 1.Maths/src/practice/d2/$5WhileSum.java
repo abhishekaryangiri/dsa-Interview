@@ -16,5 +16,6 @@ public static void main(String[] args) {
 		a++;
 	}
 	System.out.println("Total: "+ tot);
+	scan.close();
 }
 }
