@@ -4,6 +4,7 @@ package practice.d1;
 public class $2OddEveTernary {
 public static void main(String[] args) {
 	int x=20;
+	
 	//using ternary opr
 	String y = ((x%2)==0)? "Even":"Odd";
 	System.out.println(y);

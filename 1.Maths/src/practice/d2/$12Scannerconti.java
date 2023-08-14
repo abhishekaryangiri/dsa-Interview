@@ -13,6 +13,7 @@ public class $12Scannerconti {
 				//break;
 			}
 			System.out.println("You entered: "+ x);
+			scan.close();
 		}while(true);
 	}
 }

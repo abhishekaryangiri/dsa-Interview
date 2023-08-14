@@ -12,6 +12,7 @@ public static void main(String[] args) {
 	while(start<=end) {
 		//System.out.println("Hello Java");
 		System.out.println(start+ " ");
+		ip.close();
 		start++;
 	}
 }
