@@ -26,6 +26,18 @@ public class $10Methods {
 	static float  sum(float x,float y ) {
 		return x+y;
 	}
+	// method to find prime no:
+	static boolean isPrime(int n) {
+		boolean isPrime=true;
+		for(int i=2;i<=n-1;i++) {
+			if(n%i==0) {
+				isPrime= false;
+				break;
+			}
+			
+		}
+		return isPrime;
+	}
 	public static void main(String[] args) {
 		
 		System.out.println(sum(34,89));
@@ -33,6 +45,8 @@ public class $10Methods {
 		System.out.println(sum(67,4755,756));
 		
 		System.out.println(sum(4.56f,556.76f));
+		
+		System.out.println(isPrime(9));
 	}
 	 
 	 
