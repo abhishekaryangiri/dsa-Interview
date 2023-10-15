@@ -11,4 +11,15 @@ public class $10Methods {
 	2. In-built method -there is a predefined class i.e, Math has multiple inbuilt methods like power, 
 	    sqrt,etc
 	 */
+	
+	// method to calculate sum of two no:
+	static int sum(int x,int y) {
+		return x+y;
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(sum(34,89));
+	}
+	 
+	 
 }
