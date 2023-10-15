@@ -17,8 +17,14 @@ public class $10Methods {
 		return x+y;
 	}
 	
+	//method to calculate sum of 3 no:
+	static int sum(int x,int y,int z) {
+		return x+y+z;
+	}
+	
 	public static void main(String[] args) {
 		System.out.println(sum(34,89));
+		System.out.println(sum(67,4755,756));
 	}
 	 
 	 
