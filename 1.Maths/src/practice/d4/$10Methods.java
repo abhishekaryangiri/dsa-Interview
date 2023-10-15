@@ -22,9 +22,17 @@ public class $10Methods {
 		return x+y+z;
 	}
 	
+	//method to calculate int sum of 2 no:
+	static float  sum(float x,float y ) {
+		return x+y;
+	}
 	public static void main(String[] args) {
+		
 		System.out.println(sum(34,89));
+		
 		System.out.println(sum(67,4755,756));
+		
+		System.out.println(sum(4.56f,556.76f));
 	}
 	 
 	 
