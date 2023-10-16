@@ -20,9 +20,17 @@ public class $11FindPrimeNo {
 	 }
   
   // print all prime no in a range
+  public static void primeInRange(int n) {
+	  for(int i=2;i<n;i++) {
+		  if(isPrime(i)) {
+			  System.out.println(i+" ");
+		  }
+	  }
+	  System.out.println();
+  }
   
   public static void main(String[] args) {
 	System.out.println(isPrime(3));
-	
+	primeInRange(56);
 }
 }
