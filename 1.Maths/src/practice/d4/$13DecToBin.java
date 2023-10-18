@@ -10,11 +10,13 @@ public class $13DecToBin {
 				binNum=binNum+(rem*(int)Math.pow(2, pow));
 				pow++;
 				decNum=decNum/2;
+				
 			}
 			System.out.println(binNum);
 		}
 		public static void main(String[] args) {
 		
 			decToBin(5);
+			binToDec(56);
 		}
 }
