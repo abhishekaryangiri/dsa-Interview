@@ -17,6 +17,6 @@ public class $13DecToBin {
 		public static void main(String[] args) {
 		
 			decToBin(5);
-			//binToDec(56);
+			decToBin(56);
 		}
 }
