@@ -17,5 +17,9 @@ public static void main(String[] args) {
 	//update maths marks
 	marks[2]=87;
 	System.out.println("Maths marks: "+marks[2]);
+	
+	//update chemistry marks
+	marks[1]=marks[1]+2;
+	System.out.println("Chemistry marks: "+marks[1]);
 }
 }
