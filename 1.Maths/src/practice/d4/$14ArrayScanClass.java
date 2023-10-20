@@ -13,5 +13,9 @@ public static void main(String[] args) {
 	System.out.println("Physics marks: "+marks[0]);
 	System.out.println("Chemistry marks: "+marks[1]);
 	System.out.println("Maths marks: "+marks[2]);
+
+	//update maths marks
+	marks[2]=87;
+	System.out.println("Maths marks: "+marks[2]);
 }
 }
