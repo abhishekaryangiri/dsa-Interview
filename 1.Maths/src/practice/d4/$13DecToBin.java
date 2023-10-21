@@ -2,6 +2,7 @@ package practice.d4;
 
 public class $13DecToBin {
 		public static void decToBin(int decNum) {
+			
 			int myNum=decNum;
 			int pow=0;
 			int binNum=0;
