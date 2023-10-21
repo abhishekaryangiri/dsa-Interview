@@ -9,6 +9,7 @@ public static void main(String[] args) {
 	int[] marks=new int[100];
 	marks[0] =sc.nextInt();//physics
 	marks[1] =sc.nextInt();//chemistry
+	
 	marks[2] =sc.nextInt();//maths
 	
 	System.out.println("Physics marks: "+marks[0]);
