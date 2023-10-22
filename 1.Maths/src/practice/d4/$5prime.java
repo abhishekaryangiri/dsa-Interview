@@ -13,6 +13,7 @@ public class $5prime {
 		return checkPrim;
 	}
 	public static void main(String[] args) {
+		
 		boolean check = checkPrim(5);
 		System.out.println(check);
 	}
