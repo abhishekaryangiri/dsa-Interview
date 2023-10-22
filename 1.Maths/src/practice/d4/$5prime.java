@@ -15,6 +15,7 @@ public class $5prime {
 	public static void main(String[] args) {
 		
 		boolean check = checkPrim(5);
+		
 		System.out.println(check);
 	}
 	
