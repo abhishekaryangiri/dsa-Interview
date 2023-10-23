@@ -3,6 +3,7 @@ package practice.d4;
 public class $6PerfectSqr {
 	
 	public static boolean checkPerfectSqr(int num) {
+		
 		if(num<0) {
 			return false;
 		}
