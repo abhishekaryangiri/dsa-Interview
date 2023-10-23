@@ -8,6 +8,7 @@ public class $6PerfectSqr {
 			return false;
 		}
 		 int sqr =(int) Math.sqrt(num);
+		 
 		return  sqr*sqr == num;
 	}
 	public static void main(String[] args) {
