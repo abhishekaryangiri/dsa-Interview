@@ -13,6 +13,7 @@ public class $7SearchAllPrime {
 		return checkPrim;
 	}
 	public static void  rangeOn(int  z) {
+		
 		for( int b=2; b<=z; b++) {
 			if(checkPrim(b)) {
 				System.out.print(b+ " ");
