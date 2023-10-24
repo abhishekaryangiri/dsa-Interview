@@ -9,6 +9,7 @@ public class $7SearchAllPrime {
 		for( int a=2; a<=x-1; a++) {
 			
 			if(x%a==0) {
+				
 				checkPrim=false;
 				break;
 			}
