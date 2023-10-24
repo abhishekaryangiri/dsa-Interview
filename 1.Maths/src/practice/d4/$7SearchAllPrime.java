@@ -11,6 +11,7 @@ public class $7SearchAllPrime {
 			if(x%a==0) {
 				
 				checkPrim=false;
+				
 				break;
 			}
 		}
