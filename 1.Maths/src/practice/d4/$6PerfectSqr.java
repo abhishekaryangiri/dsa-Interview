@@ -12,7 +12,7 @@ public class $6PerfectSqr {
 		return  sqr*sqr == num;
 	}
 	public static void main(String[] args) {
-		int num = 100;	 
+		int num = 999;	 
 		boolean check = checkPerfectSqr(num);
 		System.out.println(check);
 	}
