@@ -12,6 +12,6 @@ public class $3Facto {
 	public static void main(String[] args) {
 		int r = facto(5);
 		int s = facto(0);
-		System.out.println(r+" "+s);
+		System.out.println("Factorial of 5 is: "+r+"  "+"Factorial of 0 is: "+s);
 	}
 }
