@@ -11,6 +11,7 @@ public class $3Facto {
 	}
 	public static void main(String[] args) {
 		int r = facto(5);
-		System.out.println(r);
+		int s = facto(0);
+		System.out.println(r+" "+s);
 	}
 }
