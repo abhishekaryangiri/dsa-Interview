@@ -9,13 +9,12 @@ public static void main(String[] args) {
 	int[] marks=new int[100];
 	marks[0] =sc.nextInt();//physics
 	marks[1] =sc.nextInt();//chemistry
-	
 	marks[2] =sc.nextInt();//maths
-	
+	marks[3] =sc.nextInt();//biology
 	System.out.println("Physics marks: "+marks[0]);
 	System.out.println("Chemistry marks: "+marks[1]);
 	System.out.println("Maths marks: "+marks[2]);
-
+    System.out.println("Biology marks: "+marks[3]);
 	//update maths marks
 	marks[2]=87;
 	System.out.println("Maths marks: "+marks[2]);
@@ -24,7 +23,7 @@ public static void main(String[] args) {
 	marks[1]=marks[1]+2;
 	System.out.println("Chemistry marks: "+marks[1]);
 	
-	int per=(marks[0]+marks[1]+marks[2])/3;
+	int per=(marks[0]+marks[1]+marks[2]+marks[3])/4;
 	System.out.println("Percentage  is  "+per+"%");
 }
 }
