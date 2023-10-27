@@ -24,6 +24,6 @@ public static void main(String[] args) {
 	System.out.println("Chemistry marks: "+marks[1]);
 	
 	int per=(marks[0]+marks[1]+marks[2]+marks[3])/4;
-	System.out.println("Percentage  is  "+per+"%");
+	System.out.println("Percentage  is  :"+per+"%");
 }
 }
