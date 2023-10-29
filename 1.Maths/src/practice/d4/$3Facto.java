@@ -10,6 +10,7 @@ public class $3Facto {
 		return f;
 	}
 	public static void main(String[] args) {
+		
 		int r = facto(5);
 		int s = facto(0);
 		System.out.println("Factorial of 5 is: "+r);
