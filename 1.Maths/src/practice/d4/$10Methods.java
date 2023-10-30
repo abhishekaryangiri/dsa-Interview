@@ -32,7 +32,9 @@ public class $10Methods {
 		for(int i=2;i<=n-1;i++) {
 			if(n%i==0) {
 				//isPrime= false;
+				
 				return false;
+				
 				//break;
 			}
 			
@@ -44,7 +46,7 @@ public class $10Methods {
 		
 		System.out.println(sum(34,89));
 		
-		System.out.println(sum(67,4755,756));
+		System.out.println(sum(67,6547,756));
 		
 		System.out.println(sum(4.56f,556.76f));
 		
