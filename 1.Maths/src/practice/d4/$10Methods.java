@@ -44,7 +44,7 @@ public class $10Methods {
 	}
 	public static void main(String[] args) {
 		
-		System.out.println(sum(34,89));
+		System.out.println(sum(34,8679));
 		
 		System.out.println(sum(67,6547,756));
 		
