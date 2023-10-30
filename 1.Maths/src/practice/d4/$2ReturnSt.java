@@ -19,6 +19,6 @@ public class $2ReturnSt {
 		
 		int ans = cal(num1, num2);
 		System.out.println("Output: "+ans);
-		scan.close();
+		//scan.close();
 	}
 }
