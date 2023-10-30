@@ -48,7 +48,7 @@ public class $10Methods {
 		
 		System.out.println(sum(67,6547,756));
 		
-		System.out.println(sum(4.56f,556.76f));
+		System.out.println(sum(4.5786f,556.76f));
 		
 		System.out.println(isPrime(9));
 	}
