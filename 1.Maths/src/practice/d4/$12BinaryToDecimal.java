@@ -2,8 +2,9 @@ package practice.d4;
 
 public class $12BinaryToDecimal {
 public static void binToDec(int binNum) {
-	int myNum=binNum;
-	int pow=0;
+	
+	int myNum= binNum;
+     int pow=0;
 	int decNum=0;
 	while(binNum>0) {
 		int lastDigit=binNum%10;
@@ -11,7 +12,7 @@ public static void binToDec(int binNum) {
 		pow++;
 		binNum=binNum/10;
 	}
-	System.out.println("Decimal No:  "+myNum+"   =  "+decNum);
+	System.out.println("Decimal No :  "+myNum+"   =  "+decNum);
 }
 public static void main(String[] args) {
 	binToDec(100);
