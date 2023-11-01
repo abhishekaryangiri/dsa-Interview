@@ -19,6 +19,7 @@ public class $8BinaryToDecimal {
 		return deci;
 	}
 	public static void main(String[] args) {
+		
 		String input = "1101";
 		int bn = binaryToDeci(input);
 		System.out.println("Binary: "+ input);
