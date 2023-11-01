@@ -9,7 +9,9 @@ public class $8BinaryToDecimal {
 		int base = 1;
 		
 		for( int x=binary.length()-1; x>=0; x--) {
+			
 			if(binary.charAt(x)=='1') {
+				
 				deci += base;
 			}
 			base *= 2;
