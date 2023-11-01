@@ -1,6 +1,7 @@
 package practice.d4;
 
 public class $8BinaryToDecimal {
+	
 	public static int binaryToDeci(String binary) {
 		int deci = 0;
 		int base = 1;
