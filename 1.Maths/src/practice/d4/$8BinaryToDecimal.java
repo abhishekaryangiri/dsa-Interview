@@ -20,7 +20,7 @@ public class $8BinaryToDecimal {
 	}
 	public static void main(String[] args) {
 		
-		String input = "1101";
+		String input = "110110";
 		int bn = binaryToDeci(input);
 		System.out.println("Binary: "+ input);
 		System.out.println("Decimal: "+bn);
