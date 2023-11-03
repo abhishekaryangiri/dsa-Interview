@@ -22,8 +22,8 @@ public class $8BinaryToDecimal {
 		
 		String input = "110110";
 		int bn = binaryToDeci(input);
-		System.out.println("Binary: "+ input);
-		System.out.println("Decimal: "+bn);
+		System.out.println("Binary : "+ input);
+		System.out.println("Decimal : "+bn);
 	}
 
 }
