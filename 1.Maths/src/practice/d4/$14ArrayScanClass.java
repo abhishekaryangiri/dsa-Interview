@@ -29,5 +29,6 @@ public static void main(String[] args) {
 	
 	int per=(marks[0]+marks[1]+marks[2]+marks[3])/4;
 	System.out.println("Percentage  is  :"+per+" % ");
+	sc.close();
 }
 }
