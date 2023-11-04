@@ -16,9 +16,9 @@ public static void main(String[] args) {
 	System.out.println("Enter your biology marks  :");
 	marks[3] =sc.nextInt();//biology
 	System.out.println("Physics marks = "+marks[0]);
-	System.out.println("Chemistry marks: "+marks[1]);
-	System.out.println("Maths marks: "+marks[2]);
-    System.out.println("Biology marks: "+marks[3]);
+	System.out.println("Chemistry marks = "+marks[1]);
+	System.out.println("Maths marks = "+marks[2]);
+    System.out.println("Biology marks ="+marks[3]);
 	//update maths marks
 	marks[2]=87;
 	System.out.println("Maths marks : "+marks[2]);
