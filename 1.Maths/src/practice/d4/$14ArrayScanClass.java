@@ -7,13 +7,13 @@ public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
  
 	int[] marks=new int[100];
-	System.out.println("Enter your physics marks");
+	System.out.println("Enter your physics marks   :");
 	marks[0] =sc.nextInt();//physics
-	System.out.println("Enter your chemistry marks");
+	System.out.println("Enter your chemistry marks  :");
 	marks[1] =sc.nextInt();//chemistry
-	System.out.println("Enter your maths marks");
+	System.out.println("Enter your maths marks  :");
 	marks[2] =sc.nextInt();//maths
-	System.out.println("Enter your biology marks");
+	System.out.println("Enter your biology marks  :");
 	marks[3] =sc.nextInt();//biology
 	System.out.println("Physics marks: "+marks[0]);
 	System.out.println("Chemistry marks: "+marks[1]);
