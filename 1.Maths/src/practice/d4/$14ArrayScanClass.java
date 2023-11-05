@@ -16,6 +16,7 @@ public static void main(String[] args) {
 	marks[2] =sc.nextInt();//maths h
 	
 	System.out.println("Enter your biology marks  :");
+	
 	marks[3] =sc.nextInt();//biology
 	System.out.println("Physics marks = "+marks[0]);
 	System.out.println("Chemistry marks = "+marks[1]);
