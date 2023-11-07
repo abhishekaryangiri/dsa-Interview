@@ -11,6 +11,8 @@ public static void main(String[] args) {
 	marks[0] =sc.nextInt();//physics
 	
 	System.out.println("Enter your chemistry marks  :");
+	
+	
 	marks[1] =sc.nextInt();//chemistry
 	
 	System.out.println("Enter your maths marks  :");
