@@ -7,6 +7,7 @@ public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
  
 	int[] marks=new int[100];
+	
 	System.out.println("Enter your physics marks   :");
 	marks[0] =sc.nextInt();//physics
 	
