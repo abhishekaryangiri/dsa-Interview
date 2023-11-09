@@ -1,7 +1,9 @@
 package practice.d4;
 
 public class $9DecimalToBinary {
+	
 	public static String deciToBinary(int deci) {
+		
 		if(deci == 0) {
 			return "0"; //for spl case like 0
 		}
