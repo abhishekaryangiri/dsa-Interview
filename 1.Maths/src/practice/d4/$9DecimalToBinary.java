@@ -17,6 +17,7 @@ public class $9DecimalToBinary {
 		return binary.toString();
 	}
 	public static void main(String[] args) {
+		
 		int dn = 25;
 		String bn = deciToBinary(dn);
 		System.out.println("Decimal: "+dn);
