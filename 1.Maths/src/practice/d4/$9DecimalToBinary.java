@@ -22,6 +22,7 @@ public class $9DecimalToBinary {
 		String bn = deciToBinary(dn);
 		
 		System.out.println("Decimal: "+dn);
+		
 		System.out.println("Binary: "+bn);
 	}
 
