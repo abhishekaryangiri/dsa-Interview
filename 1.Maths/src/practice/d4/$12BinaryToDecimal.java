@@ -1,6 +1,7 @@
 package practice.d4;
 
 public class $12BinaryToDecimal {
+	
 public static void binToDec(int binNum) {
 	
 	int myNum= binNum;
