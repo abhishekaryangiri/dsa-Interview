@@ -16,6 +16,7 @@ public static void binToDec(int binNum) {
 		decNum=decNum+lastDigit*(int)Math.pow(2, pow);
 		
 		pow++;
+		
 		binNum=binNum/10;
 	}
 	System.out.println("Decimal No :  "+myNum+"   =  "+decNum);
