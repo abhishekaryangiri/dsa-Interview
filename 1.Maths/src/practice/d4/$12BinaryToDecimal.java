@@ -29,4 +29,5 @@ public static void main(String[] args) {
 	
 	binToDec(1111111111);
 }
+
 }
