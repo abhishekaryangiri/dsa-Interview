@@ -14,7 +14,7 @@ public class $13DecToBin {
 				
 				binNum=binNum+(rem*(int)Math.pow(10, pow));
 				pow++;
-				decNum=decNum/2;
+				decNum= decNum/2;
 				
 			}
 			System.out.println("Binary No of   "+myNum+"  is  "+binNum);
