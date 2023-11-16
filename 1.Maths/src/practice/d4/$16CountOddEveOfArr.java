@@ -24,5 +24,12 @@ public class $16CountOddEveOfArr {
                            + odd_count); 
     } 
     
-    
+    public static void main(String[] args) 
+    { 
+        int arr[] = { 2, 3, 4, 5, 6 }; 
+        int n = arr.length; 
+            
+          // Function Call 
+        CountingEvenOdd(arr, n);
+}
 }
