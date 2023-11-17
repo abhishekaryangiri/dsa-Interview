@@ -26,5 +26,17 @@ public class $17MaxElemInMatrix {
         // finally return maxElement
         return maxElement;
     }
+    public static void main(String args[])
+    {
+           // matrix
+        int mat[][] = { 
+		        					{ 01, 22, 13, 14 },
+		        					{ 25, 16, 17, 18 },
+		        					{ 49, 10, 11, 12 },
+		        					{ 13, 14, 15, 16 } 
+        					};
  
+        System.out.println(findMax(mat)) ;
+   
+    }
 }
