@@ -42,5 +42,16 @@ public class $18longestName {
         // Return the final answer
         return res;
     }
+    // Driver Code
+    public static void main(String[] args)
+    {
+        String arr[] = { "GeeksforGeeks", "FreeCodeCamp",
+                         "StackOverFlow", "MyCodeSchool" };
+ 
+        int N = arr.length;
+ 
+        // Function call
+        ArrayList<String> v = solve(arr, N);
+        
         
 }
