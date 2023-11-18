@@ -1,5 +1,7 @@
 package practice.d4;
 
+import java.util.ArrayList;
+
 public class $18longestName {
 	 // Function to display longest names
     // contained in the array
@@ -53,5 +55,10 @@ public class $18longestName {
         // Function call
         ArrayList<String> v = solve(arr, N);
         
-        
+        // Printing the answer
+        for (String i : v) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+}
 }
