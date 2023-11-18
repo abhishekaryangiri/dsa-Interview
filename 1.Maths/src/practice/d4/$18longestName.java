@@ -55,7 +55,7 @@ public class $18longestName {
         // Function call
         ArrayList<String> v = solve(arr, N);
         
-        // Printing the answer
+        // printing Output
         for (String i : v) {
             System.out.print(i + " ");
         }
