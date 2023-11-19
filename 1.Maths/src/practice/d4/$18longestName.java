@@ -3,7 +3,7 @@ package practice.d4;
 import java.util.ArrayList;
 
 public class $18longestName {
-	 // Function to display longest names
+	// Function to display longest names
     // contained in the array
     public static ArrayList<String> solve(String arr[],
                                           int N)
@@ -15,6 +15,7 @@ public class $18longestName {
                 = new ArrayList<String>();
             return temp;
         }
+ 
         // Initialize Max
         int Max = arr[0].length();
  
@@ -44,6 +45,7 @@ public class $18longestName {
         // Return the final answer
         return res;
     }
+ 
     // Driver Code
     public static void main(String[] args)
     {
@@ -54,8 +56,8 @@ public class $18longestName {
  
         // Function call
         ArrayList<String> v = solve(arr, N);
-        
-        // printing Output
+ 
+        // Printing the answer
         for (String i : v) {
             System.out.print(i + " ");
         }
