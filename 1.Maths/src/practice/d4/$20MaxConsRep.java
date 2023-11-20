@@ -28,6 +28,14 @@ public class $20MaxConsRep {
                 res = str.charAt(i);
             }
         }
-        
-        
+        return res;
+    }
+ 
+    // Driver code
+    public static void main(String args[])
+    {
+ 
+        String str = "aaaabbbbbbbbbaaccde";
+        System.out.println(maxRepeating(str));       
+    }
 }
