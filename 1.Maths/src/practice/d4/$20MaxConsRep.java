@@ -36,6 +36,8 @@ public class $20MaxConsRep {
     {
  
         String str = "aaaabbbbbbbbbaaccde";
-        System.out.println(maxRepeating(str));       
+        System.out.println(maxRepeating(str));  
+        //Time Complexity : O(n^2) 
+       // Space Complexity : O(1)
     }
 }
