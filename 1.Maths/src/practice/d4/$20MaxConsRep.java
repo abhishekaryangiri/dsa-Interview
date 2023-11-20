@@ -1,5 +1,5 @@
 package practice.d4;
-
+//The simple solution to this problem is to use two for loops. The outer loop considers the current character, the inner loop counts occurrences of the current character. If the count goes beyond the current maximum count, we update the result. 
 public class $20MaxConsRep {
     // function to find out the maximum repeating
     // character in given string
