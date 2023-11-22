@@ -14,6 +14,7 @@ public class $21SmallestPrimeNum {
         return true;
     }
     // Function to find the smallest prime in range
+    
     public static int minPrimeRange(int x, int y) {
         for (int i = x; i <= y; i++) {
             if (isPrime(i))
