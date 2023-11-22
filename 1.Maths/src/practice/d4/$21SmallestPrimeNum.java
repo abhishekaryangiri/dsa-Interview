@@ -2,6 +2,7 @@ package practice.d4;
 
 public class $21SmallestPrimeNum {
     // Function to check if the number is a prime or not
+	
     public static boolean isPrime(int n) {
         if (n < 2) {
             return false;
