@@ -24,8 +24,7 @@ public class $21SmallestPrimeNum {
     // Driver code
     public static void main(String[] args) {
         int L = 24, R = 49;
- 
-        // Function call
+  // Function call
         int ans = minPrimeRange(L, R);
         System.out.println(ans);
     }
