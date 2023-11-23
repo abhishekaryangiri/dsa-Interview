@@ -1,7 +1,7 @@
 package interviewQuestion;
 
 public class MaxSum {
-	 public static maxSum(int[] num) {
+	 public static int findingmaxSum(int[] num) {
 	        int currSum = num[0];
 	        int maxSum = num[0];
 
@@ -15,7 +15,7 @@ public class MaxSum {
 
 	    public static void main(String[] args) {
 	        int[] arr = {-2, -3, 4, -1, -2, 1, 5, -3};
-	        int result = MaxSum(arr);
+	        int result = findingmaxSum(arr);
 
 	        System.out.println("Max subarray sum: " + result);
 	    }
