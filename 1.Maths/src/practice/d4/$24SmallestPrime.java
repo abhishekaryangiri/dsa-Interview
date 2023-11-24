@@ -22,4 +22,12 @@ public class $24SmallestPrime {
         }
         return -1;
     }
+ // Driver code
+    public static void main(String[] args) {
+        int L = 14, R = 19;
+ 
+        // Function call
+        int ans = minPrimeRange(L, R);
+        System.out.println(ans);
+    }
 }
