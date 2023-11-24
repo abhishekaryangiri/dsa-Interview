@@ -1,6 +1,7 @@
 package practice.d4;
 
 public class $24SmallestPrime {
+	
 	// Function to check if the number is a prime or not
     public static boolean isPrime(int n) {
         if (n < 2) {
@@ -14,7 +15,7 @@ public class $24SmallestPrime {
         return true;
     }
  
-    // Function to find the smallest prime in range
+    // Function to find the smallest prime in a range
     public static int minPrimeRange(int x, int y) {
         for (int i = x; i <= y; i++) {
             if (isPrime(i))
