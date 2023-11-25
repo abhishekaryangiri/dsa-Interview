@@ -30,6 +30,25 @@ public class $25Palindrome {
             // dupNum are equal divide dupNum 
             // value by 10 to keep moving in sync 
             // with num. 
-        	
+        	 return dupNum / 10; 
+        } else { 
+            // At position values are not  
+            // matching throw exception and exit.  
+            // no need to proceed further. 
+            throw new Exception(); 
+        } 
+   
+    } 
+   
+    public static int isPal(int num)  
+    throws Exception { 
+   
+        if (num < 0) 
+            num = (-num); 
+   
+        int dupNum = (num); 
+   
+        return isPalUtil(num, dupNum); 
+    } 
         	
 }
