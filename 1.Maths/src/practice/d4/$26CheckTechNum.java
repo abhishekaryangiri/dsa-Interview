@@ -27,4 +27,18 @@ public class $26CheckTechNum {
  
         // Split the number in two
         // equal halve and store their sum
+        
+        int half = count / 2;
+        int first_half = n / (int)Math.pow(10, half);
+        int second_half = n % (int)Math.pow(10, half);
+        int sum = first_half + second_half;
+ 
+        // Check if the square of the sum
+        // is equal to the original number
+        if ((sum * sum) == n)
+            return true;
+        else
+            return false;
+    }
+ 
 }
