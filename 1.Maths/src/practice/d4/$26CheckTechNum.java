@@ -40,5 +40,22 @@ public class $26CheckTechNum {
         else
             return false;
     }
+    // Driver code
+    public static void main(String[] args)
+    {
+        if (isTech(81))
+            System.out.println("True");
+        else
+            System.out.println("False");
  
+        if (isTech(2025))
+            System.out.println("True");
+        else
+            System.out.println("False");
+ 
+        if (isTech(1521))
+            System.out.println("True");
+        else
+            System.out.println("False");
+    }
 }
