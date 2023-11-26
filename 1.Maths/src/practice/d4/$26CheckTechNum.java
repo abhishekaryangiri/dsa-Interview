@@ -15,4 +15,16 @@ public class $26CheckTechNum {
  
     // Returns true if n is a tech
     // number, else false
+    
+    static boolean isTech(int n)
+    {
+        // Count the number of digits
+        int count = countDigits(n);
+ 
+        // Return false if digits are odd
+        if (count % 2 != 0)
+            return false;
+ 
+        // Split the number in two
+        // equal halve and store their sum
 }
