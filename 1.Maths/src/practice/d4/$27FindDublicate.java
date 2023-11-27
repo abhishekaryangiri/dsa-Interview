@@ -45,5 +45,20 @@ public class $27FindDublicate {
 	    		      else
 	    		        arr[index] = -arr[index];
 	    		    }
-	    
+	    If largest element occurs more than once
+	    if (count > 1)
+	      res.add(n - 1);
+	 
+	    if (res.size() == 0)
+	      res.add(-1);
+	    else
+	      Collections.sort(res);
+	 
+	    return res;
+	  }
+	 
+	  // Driver Code
+	
+	
+	
 }
