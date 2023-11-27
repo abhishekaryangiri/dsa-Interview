@@ -21,5 +21,29 @@ public class $27FindDublicate {
 	      // Calculate index value
 	    	
 	    	
-	    	
+	    	  int index = Math.abs(arr[i]) > n
+	    		        ? Math.abs(arr[i]) / (n + 1)
+	    		        : Math.abs(arr[i]);
+	    		 
+	    		      // Check if index equals largest element value
+	    		      if (index == n) {
+	    		        count++;
+	    		        continue;
+	    		      }
+	    		 
+	    		      // Get element value at index
+	    		      int val = arr[index];
+	    		 
+	    		      // Check if element value is negative, positive
+	    		      // or greater than n
+	    		      if (val < 0) {
+	    		        res.add(index - 1);
+	    		        arr[index] = Math.abs(arr[index]) * (n + 1);
+	    		      }
+	    		      else if (val > n)
+	    		        continue;
+	    		      else
+	    		        arr[index] = -arr[index];
+	    		    }
+	    
 }
