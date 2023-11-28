@@ -37,6 +37,35 @@ public class $28PrintAnagrams {
         }
     }
     
-    
+ // Compare two words. Used in Arrays.sort() for
+    // sorting an array of words
+    static class compStr implements Comparator<Word> {
+        public int compare(Word a, Word b)
+        {
+            return a.str.compareTo(b.str);
+        }
+    }
+ 
+    // Given a list of words in wordArr[],
+    static void printAnagramsTogether(String wordArr[],
+                                      int size)
+    {
+        // Step 1: Create a copy of all words present
+        // in given wordArr. The copy will also have
+        // original indexes of words
+        DupArray dupArray = new DupArray(wordArr, size);
+ 
+        // Step 2: Iterate through all words in
+        // dupArray and sort individual words.
+        int i;
+        for (i = 0; i < size; ++i) {
+            char[] char_arr
+                = dupArray.array[i].str.toCharArray();
+            Arrays.sort(char_arr);
+            dupArray.array[i].str = new String(char_arr);
+        }
+        
+        
+        
     
 }
