@@ -1,5 +1,8 @@
 package practice.d4;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 public class $28PrintAnagrams {
 	 // class for each word of duplicate array
     static class Word {
@@ -39,7 +42,7 @@ public class $28PrintAnagrams {
     
  // Compare two words. Used in Arrays.sort() for
     // sorting an array of words
-    static class compStr implements Comparator<Word> {
+    static class compStr implements Comparable<Word> {
         public int compare(Word a, Word b)
         {
             return a.str.compareTo(b.str);
@@ -79,7 +82,13 @@ public class $28PrintAnagrams {
     }
     
     
-    
+    // Driver program to test above functions
+    public static void main(String args[])
+    {
+        String wordArr[]
+            = { "cat", "dog", "tac", "god", "act" };
+        int size = wordArr.length;
+        printAnagramsTogether(wordArr, size);
         
-    
+    }
 }
