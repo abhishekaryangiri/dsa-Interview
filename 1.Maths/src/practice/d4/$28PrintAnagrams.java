@@ -65,7 +65,21 @@ public class $28PrintAnagrams {
             dupArray.array[i].str = new String(char_arr);
         }
         
-        
+     // Step 3: Now sort the array of words in
+        // dupArray
+        Arrays.sort(dupArray.array, new compStr());
+ 
+        // Step 4: Now all words in dupArray are together,
+        // but these words are changed. Use the index
+        // member of word struct to get the corresponding
+        // original word
+        for (i = 0; i < size; ++i)
+            System.out.print(
+                wordArr[dupArray.array[i].index] + " ");
+    }
+    
+    
+    
         
     
 }
