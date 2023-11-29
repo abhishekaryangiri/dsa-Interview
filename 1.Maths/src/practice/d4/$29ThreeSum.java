@@ -22,4 +22,11 @@ public class $29ThreeSum {
         if (found == false)
             System.out.println(" not exist ");
     }
+    // Driver code
+    public static void main(String[] args)
+    {
+        int arr[] = { 0, -1, 2, -3, 1 };
+        int n = arr.length;
+        findTriplets(arr, n);
+    }
 }
