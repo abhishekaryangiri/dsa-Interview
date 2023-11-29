@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class $28PrintAnagrams {
-	 // class for each word of duplicate array
+    // class for each word of duplicate array
     static class Word {
         String str; // to store word itself
         int index; // index of the word in the
@@ -17,7 +17,7 @@ public class $28PrintAnagrams {
             this.index = index;
         }
     }
-    
+ 
     // class to represent duplicate array.
     static class DupArray {
         Word[] array; // Array of words
@@ -39,10 +39,10 @@ public class $28PrintAnagrams {
             }
         }
     }
-    
- // Compare two words. Used in Arrays.sort() for
+ 
+    // Compare two words. Used in Arrays.sort() for
     // sorting an array of words
-    static class compStr implements Comparable<Word> {
+    static class compStr implements Comparator<Word> {
         public int compare(Word a, Word b)
         {
             return a.str.compareTo(b.str);
@@ -67,8 +67,8 @@ public class $28PrintAnagrams {
             Arrays.sort(char_arr);
             dupArray.array[i].str = new String(char_arr);
         }
-        
-     // Step 3: Now sort the array of words in
+ 
+        // Step 3: Now sort the array of words in
         // dupArray
         Arrays.sort(dupArray.array, new compStr());
  
@@ -80,8 +80,7 @@ public class $28PrintAnagrams {
             System.out.print(
                 wordArr[dupArray.array[i].index] + " ");
     }
-    
-    
+ 
     // Driver program to test above functions
     public static void main(String args[])
     {
@@ -89,6 +88,5 @@ public class $28PrintAnagrams {
             = { "cat", "dog", "tac", "god", "act" };
         int size = wordArr.length;
         printAnagramsTogether(wordArr, size);
-        
     }
 }
