@@ -23,6 +23,20 @@ public class $30TrappingRainWater {
   
             // Find maximum element on its right 
             
-            
+            int right = arr[i]; 
+            for (int j = i + 1; j < n; j++) { 
+                right = Math.max(right, arr[j]); 
+            } 
+  
+            // Update maximum water value 
+            res += Math.min(left, right) - arr[i]; 
+        } 
+        return res; 
+    } 
+  
+    // Driver code 
+    
+    
+    
             
 }
