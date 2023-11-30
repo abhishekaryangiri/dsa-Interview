@@ -13,5 +13,16 @@ public class $30TrappingRainWater {
         // For every element of the array 
         // except first and last element 
         
-        
+        for (int i = 1; i < n - 1; i++) { 
+        	  
+            // Find maximum element on its left 
+            int left = arr[i]; 
+            for (int j = 0; j < i; j++) { 
+                left = Math.max(left, arr[j]); 
+            } 
+  
+            // Find maximum element on its right 
+            
+            
+            
 }
