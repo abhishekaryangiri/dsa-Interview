@@ -1,5 +1,5 @@
 package practice.d4;
-
+import java.util.*;
 public class $31LongestComPre {
 	 public String longestCommonPrefix(String[] a)
 	    {
@@ -54,6 +54,13 @@ public class $31LongestComPre {
 	        return pre;
 	    }
 	 
-	 
+	 /* Driver Function to test other function */
+	    public static void main(String[] args)
+	    {
+	    	$31LongestComPre gfg = new $31LongestComPre();
+	        String[] input = {"geeksforgeeks", "geeks", "geek", "geezer"};
+	        System.out.println( "The longest Common Prefix is : " +
+	                                   gfg.longestCommonPrefix(input));
+	    }
 	 
 }
