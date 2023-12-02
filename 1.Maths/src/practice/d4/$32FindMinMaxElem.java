@@ -16,6 +16,13 @@ public class $32FindMinMaxElem {
 	            res = Math.max(res, arr[i]);
 	        return res;
 	    }
-	    
+	    // Driver code
+	    public static void main(String[] args)
+	    {
+	        int arr[] = { 12, 81234, 45, 67, 1 };
+	        int n = arr.length;
+	        System.out.println("Minimum element of array: " + getMin(arr, n));
+	        System.out.println("Maximum element of array: " + getMax(arr, n));
+	    }
 	    
 }
