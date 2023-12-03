@@ -16,7 +16,15 @@ public class $33CheckNegative {
 	    boolean result = test(nums);
 	    System.out.printf("\nCheck Negative Dominance in the said array! " + result);
 	  }
-
-	  
-	  
+	  // Define the 'test' method to check for negative dominance in the array.
+	  public static boolean test(int[] nums) {
+	    long count_negative, count_positive;
+	    // Remove duplicate values from the 'nums' array using the 'distinct' method.
+	    nums = Arrays.stream(nums).distinct().toArray();
+	    // Count the number of negative and positive elements in the array.
+	    count_negative = Arrays.stream(nums).filter(s -> s < 0).count();
+	    count_positive = Arrays.stream(nums).filter(s -> s > 0).count();
+	    // Return 'true' if there are more negative elements, indicating negative dominance.
+	    return count_negative > count_positive;
+	  }
 }
