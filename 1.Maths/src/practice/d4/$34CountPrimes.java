@@ -1,5 +1,7 @@
 package practice.d4;
 
+import java.util.Arrays;
+
 public class $34CountPrimes {
 	// Function to find count of prime
     static int primeCount(int arr[], int n)
