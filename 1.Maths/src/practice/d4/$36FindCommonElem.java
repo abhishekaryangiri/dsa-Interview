@@ -27,6 +27,27 @@ public class $36FindCommonElem {
             }
         }
     }
+    public static void main(String[] args)
+    {
+ 
+        int[] arr1 = { 1, 5, 10, 20, 40, 80 };
+        int[] arr2 = { 6, 7, 20, 80, 100 };
+        int[] arr3 = { 3, 4, 15, 20, 30, 70, 80, 120 };
+        int n1 = arr1.length;
+        int n2 = arr2.length;
+        int n3 = arr3.length;
+ 
+        // temp array to store the common elements of arr1
+        // and arr2 arrays
+        int[] temp = new int[200000];
+ 
+        // ans array to store the common elements of temp
+        // and arr3 arrays
+        int[] ans = new int[200000];
+ 
+        int[] k = {
+            0
+        }; // Mutable integer to simulate pass-by-reference
  
     
     
