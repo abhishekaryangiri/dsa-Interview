@@ -48,7 +48,18 @@ public class $36FindCommonElem {
         int[] k = {
             0
         }; // Mutable integer to simulate pass-by-reference
+        // function call to find the temp array
+        findIntersection(arr1, arr2, temp, n1, n2, k);
+        int tempSize = k[0];
+        k[0] = 0;
  
+        // function call to find the ans array
+        findIntersection(arr3, temp, ans, n3, tempSize, k);
+ 
+        System.out.println(
+            "Common elements present in arrays are :");
+        
+        
     
     
 }
