@@ -22,6 +22,15 @@ public class $37MissingLet {
 	    // Calculate the expected character code for the missing letter.
 	    int c = str_arra[0].charAt(0) + 1;
 	    
+	    // Iterate through the array and check for the missing letter.
+	    for (int i = 1; i < str_arra.length; i++, c++) {
+	      if (str_arra[i].charAt(0) != c) {
+	        return String.valueOf((char) c);
+	      }
+	    }
 	    
+	    // Return an empty string if no letter is missing.
+	    return "";
+	  }
 	  
 }
