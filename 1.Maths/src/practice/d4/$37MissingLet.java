@@ -17,6 +17,11 @@ public class $37MissingLet {
 	    String result = test(str_arra);
 	    System.out.printf("\nMissing letter in the said array: " + result);
 	  }
-	  
+	// Define the 'test' method to find the missing letter in the array.
+	  public static String test(String[] str_arra) {
+	    // Calculate the expected character code for the missing letter.
+	    int c = str_arra[0].charAt(0) + 1;
+	    
+	    
 	  
 }
