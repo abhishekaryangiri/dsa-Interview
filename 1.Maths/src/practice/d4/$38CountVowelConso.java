@@ -12,7 +12,13 @@ public class $38CountVowelConso {
 	for (char c : letters) { 
 		switch (c) 
 		{ 
-	case 'a': case 'e': case 'i': case 'o': case 'u': count++; break; 
+	case 'a': 
+		case 'e': 
+			case 'i': 
+				case 'o': 
+					case 'u': 
+						count++; 
+						break; 
 	}
 	default:
 	}
