@@ -7,5 +7,17 @@ public class $39FindAllPairdInArrWhoseSumIs {
         prettyPrint(numbers, 7);
         prettyPrint(numbersWithDuplicates, 7);
     }
-    
+    public static void printPairs(int[] array, int sum) { 
+    	for (int i = 0; i < array.length; i++) { 
+    		int first = array[i]; 
+    		for (int j = i + 1; j < array.length; j++) { 
+    			int second = array[j]; 
+    			if ((first + second) == sum) {
+    				System.out.printf("(%d, %d) %n", first, second); 
+    				} 
+    			} 
+    		} 
+    	}
+
+    	
 }
