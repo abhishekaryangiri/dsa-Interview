@@ -1,5 +1,7 @@
 package practice.d4;
 
+import java.util.Arrays;
+
 public class $39FindAllPairdInArrWhoseSumIs {
     public static void main(String args[]) {
         int[] numbers = { 2, 4, 3, 5, 7, 8, 9 };
@@ -18,6 +20,11 @@ public class $39FindAllPairdInArrWhoseSumIs {
     			} 
     		} 
     	}
-
-    	
+    public static void prettyPrint(int[] givenArray, int givenSum){
+        System.out.println("Given array : " + Arrays.toString(givenArray));
+        System.out.println("Given sum : " + givenSum);
+        System.out.println("Integer numbers, whose sum is equal to value : "
+                                + givenSum);
+        printPairs(givenArray, givenSum);
+    } 	
 }
