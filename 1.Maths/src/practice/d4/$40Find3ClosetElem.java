@@ -21,7 +21,32 @@ for (int i = 0; i < p; i++) {
                            Math.abs(B[j] - C[k]));
             int temp = Math.max(
                 curr, Math.abs(C[k] - A[i]));
-            
+            // If that is minimum than previous then
+            // update answer
+            if (temp < ans) {
+                ans = temp;
+                a = A[i];
+                b = B[j];
+                c = C[k];
+            }
+        }
+    }
+}
+// Printing final answer
+System.out.println(a + " " + b + " " + c);
+}
+// Driver program
+public static void main(String[] args)
+{
+int[] A = { 1, 4, 10 };
+int[] B = { 2, 15, 20 };
+int[] C = { 10, 12 };
+
+int p = A.length;
+int q = B.length;
+int r = C.length;
+
+findClosest(A, B, C, p, q, r);          
             
             
 
