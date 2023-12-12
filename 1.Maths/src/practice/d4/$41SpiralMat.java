@@ -1,13 +1,12 @@
 package practice.d4;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class $41SpiralMat {
 	// Function to print in spiral order
     public static List<Integer> spiralOrder(int[][] matrix)
     {
-        List<Integer> ans = new ArrayList()<Integer>();
- 
+        List<Integer> ans = new ArrayList<Integer>();
         if (matrix.length == 0)
             return ans;
  
@@ -47,7 +46,5 @@ public class $41SpiralMat {
  
         // Function call
         System.out.println(spiralOrder(a));
-    }
-        
-        
+    }          
 }
