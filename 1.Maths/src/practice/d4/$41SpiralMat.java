@@ -1,6 +1,7 @@
 package practice.d4;
 
 import java.util.*;
+//Given a 2D matrix, print all elements of the given matrix in diagonal order. For example, consider the following 5 X 4 input matrix.  
 
 public class $41SpiralMat {
 	// Function to print in spiral order
@@ -39,10 +40,13 @@ public class $41SpiralMat {
     // Driver Code
     public static void main(String[] args)
     {
-        int a[][] = { { 1, 2, 3, 4 },
-                      { 5, 6, 7, 8 },
-                      { 9, 10, 11, 12 },
-                      { 13, 14, 15, 16 } };
+        int a[][] = 
+        	{ 
+        		{ 1, 2, 3, 4 },
+        		{ 5, 6, 7, 8 },
+        		{ 9, 10, 11, 12 },
+        		{ 13, 14, 15, 16 } 
+        	};
  
         // Function call
         System.out.println(spiralOrder(a));
