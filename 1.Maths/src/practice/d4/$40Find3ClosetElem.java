@@ -49,6 +49,4 @@ int r = C.length;
 findClosest(A, B, C, p, q, r);          
             
 }            
-
-
 }
