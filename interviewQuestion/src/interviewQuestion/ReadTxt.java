@@ -25,7 +25,7 @@ public class ReadTxt {
 		    public static void main(String[] args) throws Exception
 		    {
 		        String data = readFileAsString(
-		            "C:\\Users\\pankaj\\Desktop\\test.java");
+		            "C:\\Users\\abhi\\Desktop\\test.java");
 		        System.out.println(data);
 		    }
 }
