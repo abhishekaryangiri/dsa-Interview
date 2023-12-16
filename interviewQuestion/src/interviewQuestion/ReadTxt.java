@@ -20,8 +20,7 @@ public class ReadTxt {
 		        data = new String(
 		            Files.readAllBytes(Path.get(fileName)));
 		        return data;
-		    }
-		 
+		    }		 
 		    public static void main(String[] args) throws Exception
 		    {
 		        String data = readFileAsString(
