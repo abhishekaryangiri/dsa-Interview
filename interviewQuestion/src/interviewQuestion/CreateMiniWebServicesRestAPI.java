@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloController {
+public class CreateMiniWebServicesRestAPI {
 
     @GetMapping("/hello")
     public String sayHello() {
@@ -16,3 +16,8 @@ public class HelloController {
     }
 }
 
+//Run the Application:
+//4.Run the Spring Boot application. This can typically be done by running the main method in your Application class.
+
+//5.Test the API:
+//Open a web browser or a tool like curl/Postman and access http://localhost:8080/hello. You should see the response message.
