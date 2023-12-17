@@ -4,6 +4,15 @@ package interviewQuestion;
 //2. import into eclise
 //3.Create a new Java class (e.g., HelloController.java) and annotate it with @RestController. Define a simple REST endpoint.
 
-public class CreateMiniWebServicesRestAPI {
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
+public class HelloController {
+
+    @GetMapping("/hello")
+    public String sayHello() {
+        return "Hello, welcome to the mini web service!";
+    }
 }
+
