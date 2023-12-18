@@ -19,5 +19,25 @@ public class TestThread {
 	      Thread.sleep(2000);  
 	   }    
 	
-	
+	try {  
+        int result = random.nextInt(200);  
+        Thread.sleep(1000);  
+        queue.put(result);  
+        System.out.println("Added: " + result);  
+          
+        result = random.nextInt(10);  
+        Thread.sleep(1000);  
+        queue.put(result);  
+        System.out.println("Added: " + result);  
+          
+        result = random.nextInt(50);  
+        Thread.sleep(1000);  
+        queue.put(result);  
+        System.out.println("Added: " + result);  
+     } catch (InterruptedException e) {  
+        e.printStackTrace();  
+     }  
+  }      
+} 
+
 }
