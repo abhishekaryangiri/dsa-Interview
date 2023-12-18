@@ -1,0 +1,23 @@
+package interviewQuestion;
+
+import java.util.Random;  
+import java.util.concurrent.ArrayBlockingQueue;  
+import java.util.concurrent.BlockingQueue;  
+//BlockingQueue?
+//The java.util.concurrent.BlockingQueue is the subinterface of Queue that supports the operations such as waiting for the space availability before inserting a new value or waiting for the queue to become non-empty before retrieving an element from it. Consider the following example.
+
+public class TestThread {
+	public static void main(final String[] arguments) throws InterruptedException {  
+	      BlockingQueue<Integer> queue = new ArrayBlockingQueue<Integer>(10);  
+	  
+	      Insert i = new Insert(queue);  
+	      Retrieve r = new Retrieve(queue);  
+	  
+	      new Thread(i).start();  
+	      new Thread(r).start();  
+	  
+	      Thread.sleep(2000);  
+	   }    
+	
+	
+}
