@@ -17,8 +17,8 @@ public class ReadTxt {
 		        throws Exception
 		    {
 		        String data = "";
-		        data = new String(
-		            Files.readAllBytes(Path.get(fileName)));
+		        //data = new String(
+		           // Files.readAllBytes(Path.get(fileName)));
 		        return data;
 		    }		 
 		    public static void main(String[] args) throws Exception
