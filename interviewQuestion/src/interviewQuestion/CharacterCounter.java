@@ -2,7 +2,7 @@ package interviewQuestion;
 
 public class CharacterCounter {
 	public static void main(String[] args) {
-        String input = "hello world";
+        String input = "Abhishek Aryan";
         countAndPrintCharacterRepetitions(input);
     }
 
