@@ -2,7 +2,7 @@ package interviewQuestion;
 
 public class FrequencyOfChar {
 	public static void main(String[] args) {
-		
+	
 		String str = "abhishek aryan amita";
 		char ch = 'a';
 		int frq = 0;
