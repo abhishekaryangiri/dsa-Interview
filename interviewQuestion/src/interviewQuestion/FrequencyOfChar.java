@@ -13,6 +13,6 @@ public class FrequencyOfChar {
 				++frq;
 			}
 		}
-System.out.println("Frequency of a :  "+ frq);
+System.out.println("Frequency of a Char :  "+ frq);
 	}	
 }
