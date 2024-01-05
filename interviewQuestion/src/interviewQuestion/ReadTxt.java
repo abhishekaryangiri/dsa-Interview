@@ -25,4 +25,5 @@ public class ReadTxt {
 		            "C:\\Users\\abhi\\Desktop\\test.java");
 		        System.out.println(data);
 		    }
+		    
 }
