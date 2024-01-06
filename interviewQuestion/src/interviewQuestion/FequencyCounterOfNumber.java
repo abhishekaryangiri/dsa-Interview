@@ -13,4 +13,8 @@ public class FequencyCounterOfNumber {
 
         return frequency;
     }
+	public static void main(String[] args) {
+        int[] numbers = { 1, 2, 3, 4, 5, 2, 3, 2, 4, 2 };
+        int numberToFind = 2;
+	}
 }
