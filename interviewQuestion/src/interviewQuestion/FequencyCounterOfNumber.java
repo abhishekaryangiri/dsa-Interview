@@ -20,4 +20,3 @@ public class FequencyCounterOfNumber {
         System.out.println("The frequency of " + numberToFind + " is: " + frequency);
     }
 	}
-}
