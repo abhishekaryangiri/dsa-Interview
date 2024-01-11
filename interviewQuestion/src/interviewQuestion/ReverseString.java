@@ -34,6 +34,6 @@ public class ReverseString {
           sc.close();
         //Calling performReverse() method to perform reverse  
         
-        performReverse(name);  
+       System.out.print(performReverse(name));  
     }  
 }
