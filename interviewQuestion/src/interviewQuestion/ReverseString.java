@@ -32,6 +32,7 @@ public class ReverseString {
         Scanner sc = new Scanner(System.in);   
         String name = sc.nextLine();  
           sc.close();
+          
         //Calling performReverse() method to perform reverse  
         
        System.out.print(performReverse(name));  
