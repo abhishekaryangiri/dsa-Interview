@@ -24,14 +24,14 @@ public class ReverseString {
             reverseString+=ch[i];    
         }  
         //Showing reverse string  
-        System.out.println("Reverse string using  iteration: "+reverseString);   
+        System.out.println("Reverse string using  String method: "+reverseString);   
     }  
     //main() method starts  
     public static void main(String[] args) {   
           
         //Getting string from the user  
         Scanner sc = new Scanner(System.in);   
-        String name = sc.next();
+       String name = sc.nextLine();
           sc.close();
           
         //Calling performReverse() method to perform reverse  
