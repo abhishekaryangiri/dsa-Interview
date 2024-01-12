@@ -3,13 +3,14 @@ package interviewQuestion;
 import java.util.Scanner;
 
 public class ReverseString {
+	
 	//Creating performReverse() method to reverse a string  
     public static void performReverse(String str){    
         //Reverse string using StringBuilder  
         //Creating instance of the StringBuilder  
         StringBuilder newString = new StringBuilder(str);     
           
-        //Using reverse() method to reverse string   
+        //Using reverse() method to reverse string  
         newString.reverse();  
         //Showing reverse string   
         System.out.println("Reverse string using StringBuilder: "+newString.toString());      
@@ -30,7 +31,7 @@ public class ReverseString {
           
         //Getting string from the user  
         Scanner sc = new Scanner(System.in);   
-        String name = sc.nextLine();  
+        String name = sc.next();
           sc.close();
           
         //Calling performReverse() method to perform reverse  
