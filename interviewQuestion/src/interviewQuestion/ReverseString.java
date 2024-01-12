@@ -23,7 +23,7 @@ public class ReverseString {
             reverseString+=ch[i];    
         }  
         //Showing reverse string  
-        System.out.println("Reverse string using string iteration: "+reverseString);   
+        System.out.println("Reverse string using  iteration: "+reverseString);   
     }  
     //main() method starts  
     public static void main(String[] args) {   
@@ -34,7 +34,6 @@ public class ReverseString {
           sc.close();
           
         //Calling performReverse() method to perform reverse  
-        
-       System.out.print(performReverse(name));  
+        System.out.println(name);
     }  
 }
