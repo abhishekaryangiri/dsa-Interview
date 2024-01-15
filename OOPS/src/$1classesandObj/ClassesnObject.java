@@ -21,7 +21,6 @@ public static void main(String[] args) {
 	System.out.println("All fav. fruits of DADA: "+ f1.fruit1+" , "+ f1.fruit2+ " , "+f1.fruit3);
 }
 }
-
 class dada{
 	String son;
 	String daughter;
