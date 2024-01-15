@@ -25,7 +25,6 @@ class dada{
 						this.relative= newRel;
 					}
 }
-
 class fruit{
 	String fruit1, fruit2, fruit3;
 	
