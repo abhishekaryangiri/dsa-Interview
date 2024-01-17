@@ -27,6 +27,7 @@ class dada{
 					}
 }
 class fruit{
+
 	String fruit1, fruit2, fruit3;
 	
 		String getFruit1() {
