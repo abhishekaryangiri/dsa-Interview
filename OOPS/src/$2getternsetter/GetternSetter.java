@@ -5,6 +5,7 @@ public class GetternSetter {
 class dada{
 
 	private String son;
+
 	private String daughter;
 	private String relative;
 		 String getSon() {
