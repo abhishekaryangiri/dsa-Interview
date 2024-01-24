@@ -10,6 +10,7 @@ public static void main(String[] args) {
 	Scanner s = new Scanner(System.in);
 
 	System.out.println("Enter Ramlal's weight");
+
 	weight[1] = s.nextInt();
 	System.out.println("Enter Shyamlal's weight");
 	weight[2] = s.nextInt();
