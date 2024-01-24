@@ -8,6 +8,7 @@ public static void main(String[] args) {
 	int weight[] = new int[5];
 
 	Scanner s = new Scanner(System.in);
+
 	System.out.println("Enter Ramlal's weight");
 	weight[1] = s.nextInt();
 	System.out.println("Enter Shyamlal's weight");
