@@ -8,6 +8,7 @@ public class $12Scannerconti {
 		Scanner scan = new Scanner(System.in);
 		do {
 			System.out.println("Enter number:");
+
 			int x = scan.nextInt();
 			if(x%5==0) {
 				continue;
