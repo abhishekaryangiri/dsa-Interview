@@ -9,6 +9,7 @@ class dada{
 	private String daughter;
 
 	private String relative;
+
 		 String getSon() {
 			 return this.son;
 		 }
