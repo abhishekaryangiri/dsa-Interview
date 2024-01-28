@@ -14,6 +14,7 @@ class dada{
 			 return this.son;
 		 }
 		 String getDtr() {
+
 			 return this.daughter;
 		 }
 		 String getRelative() {
