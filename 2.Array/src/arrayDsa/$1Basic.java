@@ -22,6 +22,7 @@ public static void main(String[] args) {
 	weight[3] = s.nextInt();
 
 	System.out.println("Enter Sohanlal's weight");
+
 	weight[4] = s.nextInt();
 
 	System.out.println("Ramlal's weight "+ weight[1]);
