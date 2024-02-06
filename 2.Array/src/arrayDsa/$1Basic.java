@@ -2,6 +2,7 @@ package arrayDsa;
 
 import java.util.Scanner;
 
+
 public class $1Basic {
 
 public static void main(String[] args) {
