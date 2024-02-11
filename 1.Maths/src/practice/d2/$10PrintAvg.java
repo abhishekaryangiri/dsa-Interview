@@ -13,6 +13,7 @@ public class $10PrintAvg {
 		int s2 = scan.nextInt();
 		
 		System.out.println("input3");
+
 		int s3 = scan.nextInt();
 				
 			int avg = (s1+s2+s3)/3;
