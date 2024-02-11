@@ -17,6 +17,7 @@ public class $10PrintAvg {
 		int s3 = scan.nextInt();
 				
 			int avg = (s1+s2+s3)/3;
+
 		System.out.println("Avg: " +avg);
 		scan.close();
 		 //close the scanner to release the resources
