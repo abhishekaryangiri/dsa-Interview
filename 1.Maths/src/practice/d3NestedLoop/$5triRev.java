@@ -7,6 +7,7 @@ public static void main(String[] args) {
 
 		//inn loop
 		for(int b=1;b<=x;b++) {
+
 			System.out.print("$");
 		}
 		System.out.println();
