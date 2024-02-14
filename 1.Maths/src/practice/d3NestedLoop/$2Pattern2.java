@@ -10,6 +10,7 @@ public class $2Pattern2 {
 			for(int b=1; b<=tC; b++) {
 				//
 				if(a==1|| a==tR || b==1 || b==tC) {
+
 					System.out.print(" * ");
 				}else {
 					System.out.print("    ");
