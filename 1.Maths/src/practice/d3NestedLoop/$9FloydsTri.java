@@ -1,6 +1,7 @@
 package practice.d3NestedLoop;
 
 public class $9FloydsTri {
+
 public static void main(String[] args) {
 	int x=6;
 	int num=1;
