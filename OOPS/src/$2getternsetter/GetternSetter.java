@@ -18,6 +18,7 @@ class dada{
 			 return this.daughter;
 		 }
 		 String getRelative() {
+
 			 return this.relative;
 		 }
 					void setSon(String newSon) {
