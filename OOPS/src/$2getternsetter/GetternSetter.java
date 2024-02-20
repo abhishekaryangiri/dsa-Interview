@@ -22,6 +22,7 @@ class dada{
 			 return this.relative;
 		 }
 					void setSon(String newSon) {
+
 						this.son=newSon;
 					}
 					void setDtr( String newDtr) {
