@@ -1,6 +1,7 @@
 package practice.d4;
 
 public class $19SumOfDigit {
+
 	 /* Function to get sum of digits */
     static int getSum(int n)
     {
