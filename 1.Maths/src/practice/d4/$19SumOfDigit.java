@@ -14,6 +14,7 @@ public class $19SumOfDigit {
         return sum;
     }
     // Driver code
+
     public static void main(String[] args)
     {
         int n = 687;
