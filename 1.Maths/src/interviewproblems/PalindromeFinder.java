@@ -9,6 +9,7 @@ public class PalindromeFinder {
 public static void main(String[] args) {
 
     String[] array = {"madam", "car", "aaa", "radar", "dog"};
+
     List<String> palindromes = findPalindromes(array);
     System.out.println("Given Array: "+Arrays.asList(array));
 
