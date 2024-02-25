@@ -12,7 +12,6 @@ public static void main(String[] args) {
 
     System.out.println("Possible palindromes in the given array: " + palindromes);
 }
-
 public static List<String> findPalindromes(String[] array) {
     List<String> palindromes = new ArrayList<>();
 
