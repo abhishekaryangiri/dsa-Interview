@@ -34,7 +34,6 @@ public static boolean isPalindrome(String str) {
         left++;
         right--;
     }
-
     return true;
 }
 }
