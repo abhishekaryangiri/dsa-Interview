@@ -20,7 +20,6 @@ public static List<String> findPalindromes(String[] array) {
             palindromes.add(str);
         }
     }
-
     return palindromes;
 }
 
