@@ -21,7 +21,6 @@ public static List<String> findPalindromes(String[] array) {
     }
     return palindromes;
 }
-
 public static boolean isPalindrome(String str) {
     int left = 0;
     int right = str.length() - 1;
