@@ -3,7 +3,6 @@ package arrayDsa;
 import java.util.Scanner;
 public class $1Basic {
 public static void main(String[] args) {
-
 	int weight[] = new int[5];
 
 	Scanner s = new Scanner(System.in);
