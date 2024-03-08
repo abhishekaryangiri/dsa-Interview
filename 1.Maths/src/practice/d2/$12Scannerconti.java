@@ -1,5 +1,4 @@
 package practice.d2;
-
 import java.util.Scanner;
 
 public class $12Scannerconti {
