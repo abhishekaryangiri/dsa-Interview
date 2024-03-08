@@ -1,6 +1,5 @@
 package practice.d2;
 import java.util.Scanner;
-
 public class $12Scannerconti {
 
 	public static void main(String[] args) {
