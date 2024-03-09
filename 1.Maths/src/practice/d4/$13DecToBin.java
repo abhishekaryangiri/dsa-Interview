@@ -1,5 +1,4 @@
 package practice.d4;
-
 public class $13DecToBin {
 		public static void decToBin(int decNum) {
 			
