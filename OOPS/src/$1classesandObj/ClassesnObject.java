@@ -3,7 +3,6 @@ package $1classesandObj;
 public class ClassesnObject {
 public static void main(String[] args) 
 	dada s1 = new dada();
-
 	s1.allSon("Ram");
 	s1.allSon("Shyam");
 	System.out.println("Son: "+s1.son);
