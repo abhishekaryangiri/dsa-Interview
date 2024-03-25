@@ -6,7 +6,6 @@ public static void main(String[] args)
 	s1.allSon("Ram");
 	s1.allSon("Shyam");
 	System.out.println("Son: "+s1.son);
-
 	s1.allDtr("Urvarshi");
 	System.out.println("Daughter: "+s1.daughter);
 	
