@@ -11,7 +11,7 @@ public static void main(String[] args)
 	
 	s1.allRelative("Ram Prasad");
 	System.out.println("Relative: "+ s1.Relative);
-	
+
 	fruit f1 = new fruit();
 	f1.setFruit1("Mango");
 	f1.setFruit2("Banana");
