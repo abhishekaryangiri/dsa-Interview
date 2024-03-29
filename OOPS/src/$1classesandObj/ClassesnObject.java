@@ -8,7 +8,7 @@ public static void main(String[] args)
 	System.out.println("Son: "+s1.son);
 	s1.allDtr("Urvarshi");
 	System.out.println("Daughter: "+s1.daughter);
-	
+
 	s1.allRelative("Ram Prasad");
 	System.out.println("Relative: "+ s1.Relative);
 
