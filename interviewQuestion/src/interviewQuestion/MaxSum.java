@@ -3,7 +3,6 @@ public class MaxSum {
 	 public static int findingmaxSum(int[] num) {
 	        int currSum = num[0];
 	        int maxSum = num[0];
-
 	        for (int i = 1; i < num.length; i++) {
 	            currSum = Math.max(num[i], currSum + num[i]);
 	            maxSum = Math.max(maxSum, currSum);
