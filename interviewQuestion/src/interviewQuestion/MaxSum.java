@@ -1,5 +1,4 @@
 package interviewQuestion;
-
 public class MaxSum {
 	 public static int findingmaxSum(int[] num) {
 	        int currSum = num[0];
