@@ -9,7 +9,6 @@ public static void swap(int x, int y) {
 	x = y;
 	y = res;
 	System.out.println("x:  "+ x);
-	
 	System.out.print("y:  "+y);
 }
 public static void main(String[] args) {
