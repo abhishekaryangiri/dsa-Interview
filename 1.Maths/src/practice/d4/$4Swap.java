@@ -6,7 +6,6 @@ public class $4Swap {
 public static void swap(int x, int y) {
 	
 	int res = x;
-	
 	x = y;
 	y = res;
 	System.out.println("x:  "+ x);
