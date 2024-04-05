@@ -13,6 +13,5 @@ public static void main(String[] args) {
 	else {
 		System.out.println(" na");
 	}
-	
 }
 }
