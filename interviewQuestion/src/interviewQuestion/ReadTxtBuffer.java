@@ -3,7 +3,6 @@ package interviewQuestion;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-
 public class ReadTxtBuffer {
 	 public static void main(String[] args) {
 	        String fileName = "path/to/your/file.txt";
