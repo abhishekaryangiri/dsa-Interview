@@ -1,5 +1,4 @@
 package interviewQuestion;
-
 public class CharacterCounter {
 	public static void main(String[] args) {
         String input = "Abhishek Aryan";
