@@ -6,7 +6,6 @@ public class FrequencyOfChar {
 		String str = "abhishek aryan amita";
 		char ch = 'a';
 		int frq = 0;
-		
 		for( int i=0;i<str.length();i++) {
 			if( ch == str.charAt(i)) {
 				 //frq = frq+1;
