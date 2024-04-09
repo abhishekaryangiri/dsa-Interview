@@ -8,8 +8,7 @@ public class ReverseString {
     public static void performReverse(String str){    
         //Reverse string using StringBuilder  
         //Creating instance of the StringBuilder  
-        StringBuilder newString = new StringBuilder(str);     
-          
+        StringBuilder newString = new StringBuilder(str);           
         //Using reverse() method to reverse string  
         newString.reverse();  
         //Showing reverse string   
