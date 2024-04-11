@@ -8,7 +8,6 @@ public class MaxSubarraySum {
             currentSum = Math.max(num[i], currentSum + num[i]);
             maxSum = Math.max(maxSum, currentSum);
         }
-
         return maxSum;
     }
 
