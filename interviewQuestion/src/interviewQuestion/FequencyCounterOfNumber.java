@@ -10,7 +10,6 @@ public class FequencyCounterOfNumber {
                 frequency++;
             }
         }
-
         return frequency;
     }
 	public static void main(String[] args) {
