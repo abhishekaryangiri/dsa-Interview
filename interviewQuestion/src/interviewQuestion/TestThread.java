@@ -9,7 +9,6 @@ import java.util.concurrent.BlockingQueue;
 public class TestThread {
 	 public static void main(final String[] arguments) throws InterruptedException {  
 	      BlockingQueue<Integer> queue = new ArrayBlockingQueue<Integer>(10);  
-	  
 	      Insert i = new Insert(queue);  
 	      Retrieve r = new Retrieve(queue);  
 	  
