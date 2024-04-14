@@ -19,7 +19,6 @@ public class TestThread {
 	      Thread.sleep(2000);  
 	   }    
 	  
-	  
 	   static class Insert implements Runnable {  
 	      private BlockingQueue<Integer> queue;  
 	  
