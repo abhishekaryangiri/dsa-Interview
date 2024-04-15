@@ -24,7 +24,7 @@ public class TestThread {
 	      public Insert(BlockingQueue queue) {  
 	         this.queue = queue;  
 	      }  
-	  
+	
 	      @Override  
 	      public void run() {  
 	         Random random = new Random();  
