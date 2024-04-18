@@ -15,7 +15,7 @@ public class ThirdLargestNumberInAnArray {
 		            array[j] = temp;
 		         }
 		      }
-		      
+		  
 		   }
 		   System.out.println("3rd largest num. is: "+array[size-3]);
 		   }
