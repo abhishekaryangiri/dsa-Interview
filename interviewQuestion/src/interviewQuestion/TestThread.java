@@ -20,7 +20,7 @@ public class TestThread {
 	  
 	   static class Insert implements Runnable {  
 	      private BlockingQueue<Integer> queue;  
-	  
+	 
 	      public Insert(BlockingQueue queue) {  
 	         this.queue = queue;  
 	      }  
