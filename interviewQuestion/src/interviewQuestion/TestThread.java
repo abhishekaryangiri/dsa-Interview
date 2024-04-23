@@ -48,8 +48,7 @@ public class TestThread {
 	            e.printStackTrace();  
 	         }  
 	      }      
-	   }  
-
+	   } 
 	   static class Retrieve implements Runnable {  
 	      private BlockingQueue<Integer> queue;  
 	  
