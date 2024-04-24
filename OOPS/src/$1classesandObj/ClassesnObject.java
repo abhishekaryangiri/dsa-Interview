@@ -18,6 +18,7 @@ public static void main(String[] args)
 	f1.setFruit3("Pineapple");
 	System.out.println("All fav. fruits of DADA: "+ f1.fruit1+" , "+ f1.fruit2+ " , "+f1.fruit3);
 }
+
 }
 class dada{
 	String son;
