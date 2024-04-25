@@ -1,7 +1,6 @@
 package interviewQuestion;
 
 public class PrePostIncrement {
-
 	public String increment() {
 		int  a=3;
 		int b=6;
