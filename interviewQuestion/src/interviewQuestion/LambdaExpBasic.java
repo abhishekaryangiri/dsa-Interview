@@ -10,6 +10,7 @@ public static void main(String[] args) {
 // calling the method of the functional interface
 	myFunctionalInterface.myMethod("Dude!");
 }
+
 }
 //MyFunctionalInterface is a functional interface with a single abstract method myMethod.
 //The LambdaExample class demonstrates the use of a lambda expression to implement the MyFunctionalInterface.
