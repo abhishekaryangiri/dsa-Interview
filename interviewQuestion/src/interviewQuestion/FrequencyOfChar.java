@@ -11,6 +11,7 @@ public class FrequencyOfChar {
 				 //frq = frq+1;
 				++frq;
 			}
+
 		}
 System.out.println("Frequency of a Char  :     "+ frq);
 	}	
