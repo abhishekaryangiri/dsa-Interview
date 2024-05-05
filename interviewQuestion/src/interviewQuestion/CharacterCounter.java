@@ -4,6 +4,7 @@ public class CharacterCounter {
         String input = "Abhishek Aryan";
         countAndPrintCharacterRepetitions(input);
      }
+
     public static void countAndPrintCharacterRepetitions(String input) {
         for (char c : input.toCharArray()) {
             int count = input.length() - input.replace(String.valueOf(c), "").length();
