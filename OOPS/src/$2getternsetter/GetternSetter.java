@@ -17,6 +17,7 @@ class dada{
 
 			 return this.daughter;
 		 }
+
 		 String getRelative() {
 
 			 return this.relative;
