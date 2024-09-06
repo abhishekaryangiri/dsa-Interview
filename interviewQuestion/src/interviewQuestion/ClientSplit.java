@@ -2,6 +2,7 @@ package interviewQuestion;
 
 public class ClientSplit {
 public static void main(String[] args) {
+	
 	SplitMethod splitMethod = new SplitMethod();
 	 String ab = splitMethod.splitCall();
 	 //System.out.println(ab);
